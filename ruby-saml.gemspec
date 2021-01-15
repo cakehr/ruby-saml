@@ -46,7 +46,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('shoulda',  '~> 2.11')
   s.add_development_dependency('simplecov','~> 0.9.0')
   s.add_development_dependency('systemu',  '~> 2')
-  s.add_development_dependency('timecop',  '<= 0.6.0')
+  s.add_development_dependency('timecop',  '<= 0.10.0')
 
   if defined?(JRUBY_VERSION)
     # All recent versions of JRuby play well with pry
